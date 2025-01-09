@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 50px;
+    width: 100vw;
+    
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+nav ul{
+    display:flex;
+}
+.pos{
+    position: sticky;
+    top: 0;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.h{
+    display: flex;
+}
+
+.ham_icon{
+    height: 30px;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 20px;
+    transition: background-color 0.5s;
+}
+.ham_icon:hover{
+    background-color: rgb(217, 214, 214);
+ }
+
+.logo{
+    height: 30px;
+    margin: 5px;
+}
+.search_bar{
+    padding: 10px 300px 10px 10px;
+    margin: 0px 0px 0px 200px;
+    border: 2px solid rgb(61, 59, 59);
+    border-radius: 22px;
+    font-size: 17px;
+}
+.voice_search{
+    height: 30px;
+    padding: 5px;
+    margin: 2px 50px 0px 10px;
+    border-radius: 20px;
+    background-color: rgb(234, 233, 233);
+}
+.create_button{
+    font-size: 16px;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 21px;
+    margin: 5px 5px 5px 225px;
+}
+.notification{
+    height: 28px;
+    padding: 5px;
+    margin: 2px 5px 0px 5px;
+    border-radius: 20px;
+ 
+}
+.profile{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(86, 154, 183);
+    border: none;
+    border-radius: 20px;
+    margin:  5px 5px 5px 20px;
+}
+main{
+    display: flex;
+}
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    padding: 15px;
+    
+}
+.sidebar_img{
+    margin: 5px 5px 5px 20px;
+    cursor: pointer;
+}
+.sidebar_text{
+    font-size: 17px;
+    margin: 5px;
+    padding: 0px 0px 0px 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.sidebar_head{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sidebar_arrow{
+  margin-top: 11px;
+}
+.content{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    gap: 11px;
+    
+}
+.thumbnail{
+    width: 390px;
+    border-radius: 10px;
+}
+.cur{
+    cursor: pointer;
+}
+.channel_pic{
+   display: inline-block;
+   width: 45px;
+   vertical-align: top;
+   margin: 4px;
+   
+}
+.channel_info{
+  display: inline-block;
+  width: 290px;
+  font-family: "Roboto", Arial, serif;
+  margin: 6px 1px 6px 3px;
+  
+}
+.profile_pic{
+    width: 100%;
+    border-radius: 30px;
+    
+}
+.video_title{
+    font-size: 18px;
+    font-weight: 600;
+}
+.video_author{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(81, 81, 81);
+    margin-top: 6px;
+}
+.video_stats{
+    font-size: 15px;
+    color: rgb(81, 81, 81);
+    font-weight: 400;
+}
+.dots{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+   margin-left: 15px;
+ }
